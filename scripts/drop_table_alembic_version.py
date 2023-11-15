@@ -8,7 +8,7 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
 user = "postgres"
 password = "postgres"
-database = "flatiron_test"
+database = "labs"
 
 conn = psycopg2.connect(f"dbname={database} user='{user}' host='localhost' password='{password}'")
 conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT);
