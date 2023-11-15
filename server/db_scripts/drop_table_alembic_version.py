@@ -15,6 +15,6 @@ conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT);
 
 cur_ob     = conn.cursor()
 
-cur_ob.execute(f"drop table if exists alembic_version;")
+cur_ob.execute(f"DROP TABLE IF EXISTS alembic_version;")
 
-print("alembic_version table dropped")
+print("table alembic_version dropped")

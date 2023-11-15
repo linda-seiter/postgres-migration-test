@@ -12,8 +12,8 @@ conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT);
 
 cur_ob     = conn.cursor()
 
-cur_ob.execute(f"drop database if exists {database};")
-cur_ob.execute(f"create database {database};")
+cur_ob.execute(f"DROP DATABASE IF EXISTS {database};")
+cur_ob.execute(f"CREATE DATABASE {database};")
 
-print("database created")
+print(f"database {database} created")
 
