@@ -15,5 +15,5 @@ cur_ob     = conn.cursor()
 cur_ob.execute(f"DROP DATABASE IF EXISTS {database};")
 cur_ob.execute(f"CREATE DATABASE {database};")
 
-print(f"database {database} created")
+# print(f"database {database} created")
 

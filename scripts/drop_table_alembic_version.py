@@ -17,4 +17,4 @@ cur_ob     = conn.cursor()
 
 cur_ob.execute(f"DROP TABLE IF EXISTS alembic_version;")
 
-print("table alembic_version dropped")
+# print("table alembic_version dropped")
